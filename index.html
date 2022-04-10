@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+	<div><strong style="color:green;">WORDLE</strong></div>
+	<div id="wordle">
+		<table>
+			<tr>
+				<th><input id="first" maxlength="1" minlength="1"></input></th>
+				<th><input id="second"maxlength="1" minlength="1"></input></th>
+				<th><input id="third" maxlength="1" minlength="1"></input></th>
+				<th><input id="fourth"maxlength="1" minlength="1"></input></th>
+				<th><input id="fifth" maxlength="1" minlength="1"></input></th>
+			</tr>
+		</table>
+	</div>
+	<button id="startButton">press this button to guess wordle!</button>
+	<p id="countTry">0</p>
+	<p id="answer">6回以内に答えてね</p>
+	<script src="script.js"></script>
+</body>
+</html>
